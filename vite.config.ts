@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   // 👇 MUST match the repo name exactly, with leading and trailing slashes
-  base: "/HIPAA-SRA/",
+  base: "/HIPAA-SRA",
 
   server: {
     host: "::",

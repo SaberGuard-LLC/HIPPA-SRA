@@ -3,7 +3,9 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/saberguard-hipaa-sra-tool/",
+  // 👇 MUST match the repo name exactly, with leading and trailing slashes
+  base: "/HIPAA-SRA/",
+
   server: {
     host: "::",
     port: 8080,
